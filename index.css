@@ -329,6 +329,7 @@
     width: 80%;
     text-align: center;
     font-size: 0.9rem;
+    font-size: 1.1em;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block {
     display: flex;
@@ -382,8 +383,8 @@
     overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
-    margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
+    margin: 1em 1em 0 1em;
   }
   body #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
@@ -394,6 +395,7 @@
   body #whole_page .whole_page .about_section .about_section_content .title_nav .section_title {
     font-family: "Inter", sans-serif;
     font-size: 2.2rem;
+    font-size: 2.5rem;
     color: white;
     font-weight: bold;
   }
@@ -411,7 +413,9 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 1.5em;
+    line-height: 1.8em;
     margin: 2em 0 0 0;
     width: 100%;
     width: 80%;
@@ -421,6 +425,7 @@
     padding: 0.7em 0 0.7em 0;
     width: 14em;
     margin: 2em 0 0 0;
+    margin: 3em 0 0 0;
     text-align: center;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
@@ -428,6 +433,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 0.8rem;
+    font-size: 1rem;
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
