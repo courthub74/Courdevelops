@@ -438,12 +438,12 @@
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
     height: 150vh;
-    height: 110vh;
+    height: 100vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
-    margin: 0 3em 0 3em;
     margin: 0 1em 0 1em;
+    margin: 1em 1em 0 1em;
     overflow: hidden;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
@@ -471,7 +471,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 4em;
     margin-top: 70px;
     margin-top: 50px;
   }
@@ -486,6 +486,7 @@
     border-top: 3px solid #61677A;
     height: 19%;
     height: 9em;
+    height: 10em;
     width: 100%;
     transition: 0.3s all ease-in;
     box-shadow: 2px 2px 2px black;
@@ -692,13 +693,12 @@
   }
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
-    height: 110vh;
+    height: 100vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
-    margin: 0 3em 0 3em;
-    margin: -6em 1em 0 1em;
     margin: 0em 1em 0 1em;
+    margin: 1em 1em 0 1em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav {
     display: flex;
@@ -731,10 +731,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    height: 7em;
-    width: 9em;
     height: 6em;
     width: 6em;
+    height: 7em;
+    width: 7em;
     box-shadow: 2px 2px 2px black;
     box-sizing: border-box;
   }
@@ -1160,13 +1160,11 @@
     height: 90%;
     margin-top: 50px;
     gap: 2em;
-    gap: 1.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    gap: 1.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .top_three {
     display: flex;
@@ -1177,17 +1175,18 @@
     display: flex;
     justify-content: space-between;
     gap: 1.5em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    gap: 1.5em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .top_three {
     display: flex;
     justify-content: space-between;
     gap: 1.5em;
+    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .bottom_three {
     display: flex;

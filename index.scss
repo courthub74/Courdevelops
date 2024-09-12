@@ -609,13 +609,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 .portfolio_section {
                     background-color: $darkblue;
                     height: 150vh;
-                    height: 110vh;
+                    height: 100vh;
                     overflow: hidden;
                     // transition: .3s all ease-in;
                     // border-bottom: 1px solid white;
                     .portfolio_section_content {
-                        margin: 0 3em 0 3em;
+                        // margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
+                        margin: 1em 1em 0 1em;
                         // border-bottom: 1px solid white;
                         // padding-bottom: 6em;
                         overflow: hidden;
@@ -651,7 +652,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             flex-direction: column;
                             // justify-content: center;
                             // align-items: center;
-                            gap: 3em;
+                            gap: 4em;
                             margin-top: 70px;
                             margin-top: 50px;
                             /////////////////////
@@ -669,6 +670,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // border-top: 3px solid $nextgreen;
                                 height: 19%;
                                 height: 9em;
+                                // New Height
+                                height: 10em;
                                 width: 100%;
                                 transition: .3s all ease-in;
                                 box-shadow: 2px 2px 2px black;
@@ -927,13 +930,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 .skills_section {
                     background-color: $nextgreen;
                     // background-color: $darkblue;
-                    height: 110vh;
+                    height: 100vh;
                     // height: 120vh;
                     overflow: hidden;
                     .skills_section_content {
-                        margin: 0 3em 0 3em;
-                        margin: -6em 1em 0 1em;
+                        // margin: 0 3em 0 3em;
+                        // margin: -6em 1em 0 1em;
                         margin: 0em 1em 0 1em;
+                        margin: 1em 1em 0 1em;
                         // padding-bottom: 6em;
                         // border-bottom: 1px solid white;
                         // height: 100%;
@@ -974,11 +978,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
-                            height: 7em;
-                            width: 9em;
+                            // height: 7em;
+                            // width: 9em;
                             // This is the Size for smaller circles
                             height: 6em;
                             width: 6em;
+                            // New Sizing
+                            height: 7em;
+                            width: 7em;
                             box-shadow: 2px 2px 2px black;
                             box-sizing: border-box;
                             // Actually the inner circle
@@ -1472,14 +1479,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // margin-top: -60px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
-                            gap: 1.5em;
+                            // gap: 1.5em;
                             // THE FIRST SIX
                             .first_six {
                                 display: flex;
                                 flex-direction: column;
                                 // GAP FOR THE TOP TWO
                                 gap: 2em;
-                                gap: 1.5em;
+                                // gap: 1.5em;
                                 // automatically columned here
                                 /// /////////////NOTE: THE WHOLE ROW NEEDS TO HAVE A CERTAIN WIDTH
                                 /// /////////////////// SO THE ROW EXPANDS AS THE PAGE DOES
@@ -1497,7 +1504,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     justify-content: space-between;
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1.5em;
-                                    // gap: .5em;
+                                    gap: 2em;
                                 }
                             }
                             // THE SECOND SIX
@@ -1506,13 +1513,13 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 display: flex;
                                 flex-direction: column;
                                 gap: 2em;
-                                gap: 1.5em;
+                                // gap: 1.5em;
                                .top_three {
                                 display: flex;
                                 justify-content: space-between;
                                 // HORIZ GAP FOR TOP 3
                                 gap: 1.5em;
-                                // gap: .5em;
+                                gap: 2em;
                                }
                                .bottom_three {
                                     display: flex;
