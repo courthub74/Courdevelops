@@ -1253,6 +1253,7 @@
     box-shadow: 2px 2px 2px black;
     height: 19%;
     height: 10em;
+    height: 9em;
     width: 100%;
     transition: 0.3s all ease-out;
   }
@@ -1291,7 +1292,7 @@
     display: flex;
     gap: 2em;
     margin: 0 0 -3em 0;
-    transition: 0.3s all ease-in-out;
+    transition: 0.4s all ease-in-out;
   }
   body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
     font-size: 0.7rem;
