@@ -933,7 +933,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 .skills_section {
                     background-color: $nextgreen;
                     // background-color: $darkblue;
-                    height: 100vh;
+                    height: 110vh;
                     // height: 120vh;
                     overflow: hidden;
                     .skills_section_content {
@@ -1482,6 +1482,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // margin-top: -60px;
                             // GAP FOR THE TWO CHUNKS
                             gap: 2em; 
+                            gap: 3em;
                             // gap: 1.5em;
                             // THE FIRST SIX
                             .first_six {
@@ -1489,6 +1490,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 flex-direction: column;
                                 // GAP FOR THE TOP TWO
                                 gap: 2em;
+                                gap: 3em;
                                 // gap: 1.5em;
                                 // automatically columned here
                                 /// /////////////NOTE: THE WHOLE ROW NEEDS TO HAVE A CERTAIN WIDTH
@@ -1498,6 +1500,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     justify-content: space-between;
                                     // HORIZ GAP FOR TOP 3
                                     gap: 1.5em;
+                                    gap: 2em;
                                     // gap: .5em;
                                     // NOW try to make the gap adjustable
                                     // gap: 5vw;
@@ -1508,6 +1511,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1.5em;
                                     gap: 2em;
+                                    // gap: 3em;
                                 }
                             }
                             // THE SECOND SIX
@@ -1516,19 +1520,21 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 display: flex;
                                 flex-direction: column;
                                 gap: 2em;
+                                gap: 3em;
                                 // gap: 1.5em;
                                .top_three {
                                 display: flex;
                                 justify-content: space-between;
                                 // HORIZ GAP FOR TOP 3
                                 gap: 1.5em;
-                                gap: 2em;
+                                // gap: 2em;
                                }
                                .bottom_three {
                                     display: flex;
                                     justify-content: space-between;
                                     // HORIZ GAP FOR BOTTOM 3
                                     gap: 1.5em;
+                                    gap: 2em;
                                     // gap: .5em;
                                }
                             }
