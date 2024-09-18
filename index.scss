@@ -584,6 +584,12 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             }
                         }
                     }
+                    .next_section_down {
+                        // background-color: blue;
+                        display: flex;
+                        justify-content: left;
+                        margin-top: 1em;
+                    }
                     // .next_section_down {
                     //     display: flex;
                     //     justify-content: right;
@@ -655,7 +661,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             flex-direction: column;
                             // justify-content: center;
                             // align-items: center;
-                            gap: 4em;
+                            gap: 2em;
                             margin-top: 70px;
                             margin-top: 50px;
                             /////////////////////
@@ -672,13 +678,13 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 border-top: 3px solid $buttongrey;
                                 // border-top: 3px solid $nextgreen;
                                 height: 19%;
+                                // Original Height
                                 height: 9em;
                                 // New Height
-                                height: 10em;
+                                // height: 10em;
                                 width: 100%;
                                 transition: .3s all ease-in;
                                 box-shadow: 2px 2px 2px black;
-
                                 /////////////////////////////////////
                                 /////////////////////////////////////
                                 /////////////////////////////////////
@@ -921,7 +927,15 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             opacity: 1;
                         }
                     }
+                    // Next Down
+                    .next_section_down {
+                        display: flex;
+                        justify-content: left;
+                        margin-top: 1em;
+                    }
                 }
+                // When the Portfolio square is tapped
+                // Whole section gets longer
                 #portfolio_section_id.tapped {
                     height: 150vh;
                     transition: .3s all ease-in;
@@ -940,7 +954,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         // margin: 0 3em 0 3em;
                         // margin: -6em 1em 0 1em;
                         margin: 0em 1em 0 1em;
-                        margin: 1em 1em 0 1em;
+                        // New Margin
+                        // margin: 1em 1em 0 1em;
                         // padding-bottom: 6em;
                         // border-bottom: 1px solid white;
                         // height: 100%;
@@ -987,8 +1002,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             height: 6em;
                             width: 6em;
                             // New Sizing
-                            height: 7em;
-                            width: 7em;
+                            // height: 7em;
+                            // width: 7em;
                             box-shadow: 2px 2px 2px black;
                             box-sizing: border-box;
                             // Actually the inner circle
@@ -1480,17 +1495,19 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             height: 90%;
                             margin-top: 50px;
                             // margin-top: -60px;
-                            // GAP FOR THE TWO CHUNKS
+                            // ORIGINAL GAP FOR THE TWO CHUNKS
                             gap: 2em; 
-                            gap: 3em;
+                            // New Gap
+                            // gap: 3em;
                             // gap: 1.5em;
                             // THE FIRST SIX
                             .first_six {
                                 display: flex;
                                 flex-direction: column;
-                                // GAP FOR THE TOP TWO
+                                // ORIGINAL GAP FOR THE TOP TWO
                                 gap: 2em;
-                                gap: 3em;
+                                // NEW GAP FOR THE TOP TWO
+                                // gap: 3em;
                                 // gap: 1.5em;
                                 // automatically columned here
                                 /// /////////////NOTE: THE WHOLE ROW NEEDS TO HAVE A CERTAIN WIDTH
@@ -1498,19 +1515,19 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 .top_three {
                                     display: flex;
                                     justify-content: space-between;
-                                    // HORIZ GAP FOR TOP 3
+                                    // ORIGINAL HORIZ GAP FOR TOP 3
                                     gap: 1.5em;
-                                    gap: 2em;
+                                    // NEW HORIZ GAP
+                                    // gap: 2em;
                                     // gap: .5em;
-                                    // NOW try to make the gap adjustable
-                                    // gap: 5vw;
                                 }
                                 .bottom_three {
                                     display: flex;
                                     justify-content: space-between;
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1.5em;
-                                    gap: 2em;
+                                    // NEW HORIZ GAP
+                                    // gap: 2em;
                                     // gap: 3em;
                                 }
                             }
@@ -1519,8 +1536,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // VERT GAP FOR THE BOTTOM 3
                                 display: flex;
                                 flex-direction: column;
+                                // ORIG GAP
                                 gap: 2em;
-                                gap: 3em;
+                                // NEW GAP
+                                // gap: 3em;
                                 // gap: 1.5em;
                                .top_three {
                                 display: flex;
@@ -1539,6 +1558,12 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                }
                             }
                         }
+                    }
+                     // Next Down
+                     .next_section_down {
+                        display: flex;
+                        justify-content: left;
+                        margin-top: 1em;
                     }
                 }
                 ////////////////////////////////////////////////////

@@ -435,6 +435,11 @@
     font-size: 0.8rem;
     font-size: 0.9rem;
   }
+  body #whole_page .whole_page .about_section .next_section_down {
+    display: flex;
+    justify-content: left;
+    margin-top: 1em;
+  }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
     height: 150vh;
@@ -471,7 +476,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 2em;
     margin-top: 70px;
     margin-top: 50px;
   }
@@ -486,7 +491,6 @@
     border-top: 3px solid #61677A;
     height: 19%;
     height: 9em;
-    height: 10em;
     width: 100%;
     transition: 0.3s all ease-in;
     box-shadow: 2px 2px 2px black;
@@ -687,6 +691,11 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content #luminex_content.tapped {
     opacity: 1;
   }
+  body #whole_page .whole_page .portfolio_section .next_section_down {
+    display: flex;
+    justify-content: left;
+    margin-top: 1em;
+  }
   body #whole_page .whole_page #portfolio_section_id.tapped {
     height: 150vh;
     transition: 0.3s all ease-in;
@@ -698,7 +707,6 @@
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
     margin: 0em 1em 0 1em;
-    margin: 1em 1em 0 1em;
   }
   body #whole_page .whole_page .skills_section .skills_section_content .title_nav {
     display: flex;
@@ -733,8 +741,6 @@
     border-radius: 50%;
     height: 6em;
     width: 6em;
-    height: 7em;
-    width: 7em;
     box-shadow: 2px 2px 2px black;
     box-sizing: border-box;
   }
@@ -1160,31 +1166,26 @@
     height: 90%;
     margin-top: 50px;
     gap: 2em;
-    gap: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    gap: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .top_three {
     display: flex;
     justify-content: space-between;
     gap: 1.5em;
-    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .first_six .bottom_three {
     display: flex;
     justify-content: space-between;
     gap: 1.5em;
-    gap: 2em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    gap: 3em;
   }
   body #whole_page .whole_page .skills_section .skills_circles .second_six .top_three {
     display: flex;
@@ -1196,6 +1197,11 @@
     justify-content: space-between;
     gap: 1.5em;
     gap: 2em;
+  }
+  body #whole_page .whole_page .next_section_down {
+    display: flex;
+    justify-content: left;
+    margin-top: 1em;
   }
   body #whole_page .experience_section {
     background-color: #080E2F;
