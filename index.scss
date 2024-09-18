@@ -443,7 +443,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 text-align: center;
                                 font-size: .9rem;
                                 // New font size
-                                font-size: 1.1em;
+                                font-size: 1em;
                             }
                             .socials_block {
                                 display: flex;
@@ -516,9 +516,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     .about_section_content {
                         // margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
-                        margin: 1em 1em 0 1em;
-                        // border-bottom: 1px solid white;
-                        // padding-bottom: 6em;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        // align-items: center;
                         .title_nav {
                            display: flex;
                            justify-content: space-between;
@@ -529,7 +530,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 font-family: 'Inter', sans-serif;
                                 font-size: 2.2rem;
                                 // New font size
-                                font-size: 2.5rem;
+                                // font-size: 2.5rem;
                                 color: white;
                                 font-weight: bold;
                                 
@@ -550,17 +551,18 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         .about_words {
                             color: white;
                             font-family: 'Inter', sans-serif;
+                            // Original Font Size
                             font-size: .9rem;
                             // New font size
-                            font-size: 1.1rem;
+                            font-size: 1rem;
+                            // Original line height
                             line-height: 1.5em;
-                            // New line height
-                            line-height: 1.8em;
+                            // New Margin for paragraphs
                             margin: 2em 0 0 0;
-                            // margin: 3em 0 0 0;
-                            // background-color: #0d1270;
-                            width: 100%;
+                            // Original Width
                             width: 80%;
+                            // New Width
+                            width: 85%;
                         }
                         .resume_dload {
                             background-color: white;
@@ -575,9 +577,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 color: $nextgreen;
                                 text-decoration: none;
                                 font-weight: bold;
+                                // Original Font Size
                                 font-size: .8rem;
                                 // New font size
-                                font-size: 1rem;
+                                font-size: .9rem;
                             }
                         }
                     }
