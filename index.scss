@@ -442,6 +442,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 width: 80%;
                                 text-align: center;
                                 font-size: .9rem;
+                                // New font size
+                                font-size: 1em;
                             }
                             .socials_block {
                                 display: flex;
@@ -512,10 +514,12 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     overflow: hidden;
                     // height: 80vh;
                     .about_section_content {
-                        margin: 0 3em 0 3em;
+                        // margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
-                        // border-bottom: 1px solid white;
-                        // padding-bottom: 6em;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        // align-items: center;
                         .title_nav {
                            display: flex;
                            justify-content: space-between;
@@ -525,6 +529,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // margin-top: 1em;
                                 font-family: 'Inter', sans-serif;
                                 font-size: 2.2rem;
+                                // New font size
+                                // font-size: 2.5rem;
                                 color: white;
                                 font-weight: bold;
                                 
@@ -545,12 +551,18 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         .about_words {
                             color: white;
                             font-family: 'Inter', sans-serif;
+                            // Original Font Size
                             font-size: .9rem;
+                            // New font size
+                            font-size: 1rem;
+                            // Original line height
                             line-height: 1.5em;
+                            // New Margin for paragraphs
                             margin: 2em 0 0 0;
-                            // background-color: #0d1270;
-                            width: 100%;
+                            // Original Width
                             width: 80%;
+                            // New Width
+                            width: 85%;
                         }
                         .resume_dload {
                             background-color: white;
@@ -558,14 +570,25 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             padding: .7em 0 .7em 0;
                             width: 14em;
                             margin: 2em 0 0 0;
+                            // New margin
+                            margin: 3em 0 0 0;
                             text-align: center;
                             a {
                                 color: $nextgreen;
                                 text-decoration: none;
                                 font-weight: bold;
+                                // Original Font Size
                                 font-size: .8rem;
+                                // New font size
+                                font-size: .9rem;
                             }
                         }
+                    }
+                    .next_section_down {
+                        // background-color: blue;
+                        display: flex;
+                        justify-content: left;
+                        margin-top: 1em;
                     }
                     // .next_section_down {
                     //     display: flex;
@@ -595,13 +618,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 .portfolio_section {
                     background-color: $darkblue;
                     height: 150vh;
-                    height: 110vh;
+                    height: 100vh;
                     overflow: hidden;
                     // transition: .3s all ease-in;
                     // border-bottom: 1px solid white;
                     .portfolio_section_content {
-                        margin: 0 3em 0 3em;
+                        // margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
+                        margin: 1em 1em 0 1em;
                         // border-bottom: 1px solid white;
                         // padding-bottom: 6em;
                         overflow: hidden;
@@ -637,6 +661,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             flex-direction: column;
                             // justify-content: center;
                             // align-items: center;
+                            // NEW GAP
                             gap: 3em;
                             margin-top: 70px;
                             margin-top: 50px;
@@ -654,11 +679,13 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 border-top: 3px solid $buttongrey;
                                 // border-top: 3px solid $nextgreen;
                                 height: 19%;
+                                // Original Height
                                 height: 9em;
+                                // New Height
+                                // height: 10em;
                                 width: 100%;
                                 transition: .3s all ease-in;
                                 box-shadow: 2px 2px 2px black;
-
                                 /////////////////////////////////////
                                 /////////////////////////////////////
                                 /////////////////////////////////////
@@ -901,7 +928,15 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             opacity: 1;
                         }
                     }
+                    // Next Down
+                    .next_section_down {
+                        display: flex;
+                        justify-content: left;
+                        margin-top: 1em;
+                    }
                 }
+                // When the Portfolio square is tapped
+                // Whole section gets longer
                 #portfolio_section_id.tapped {
                     height: 150vh;
                     transition: .3s all ease-in;
@@ -917,13 +952,11 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     // height: 120vh;
                     overflow: hidden;
                     .skills_section_content {
-                        margin: 0 3em 0 3em;
-                        margin: -6em 1em 0 1em;
+                        // margin: 0 3em 0 3em;
+                        // margin: -6em 1em 0 1em;
                         margin: 0em 1em 0 1em;
-                        // padding-bottom: 6em;
-                        // border-bottom: 1px solid white;
-                        // height: 100%;
-                        // width: 100%;
+                        // New Margin
+                        // margin: 1em 1em 0 1em;
                         .title_nav {
                             display: flex;
                             justify-content: space-between;
@@ -960,11 +993,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
-                            height: 7em;
-                            width: 9em;
+                            // height: 7em;
+                            // width: 9em;
                             // This is the Size for smaller circles
                             height: 6em;
                             width: 6em;
+                            // New Sizing
+                            // height: 7em;
+                            // width: 7em;
                             box-shadow: 2px 2px 2px black;
                             box-sizing: border-box;
                             // Actually the inner circle
@@ -1456,34 +1492,40 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             height: 90%;
                             margin-top: 50px;
                             // margin-top: -60px;
-                            // GAP FOR THE TWO CHUNKS
+                            // ORIGINAL GAP FOR THE TWO CHUNKS
                             gap: 2em; 
-                            gap: 1.5em;
+                            // New Gap
+                            // gap: 3em;
+                            // gap: 1.5em;
                             // THE FIRST SIX
                             .first_six {
                                 display: flex;
                                 flex-direction: column;
-                                // GAP FOR THE TOP TWO
+                                // ORIGINAL GAP FOR THE TOP TWO
                                 gap: 2em;
-                                gap: 1.5em;
+                                // NEW GAP FOR THE TOP TWO
+                                // gap: 3em;
+                                // gap: 1.5em;
                                 // automatically columned here
                                 /// /////////////NOTE: THE WHOLE ROW NEEDS TO HAVE A CERTAIN WIDTH
                                 /// /////////////////// SO THE ROW EXPANDS AS THE PAGE DOES
                                 .top_three {
                                     display: flex;
                                     justify-content: space-between;
-                                    // HORIZ GAP FOR TOP 3
+                                    // ORIGINAL HORIZ GAP FOR TOP 3
                                     gap: 1.5em;
+                                    // NEW HORIZ GAP
+                                    // gap: 2em;
                                     // gap: .5em;
-                                    // NOW try to make the gap adjustable
-                                    // gap: 5vw;
                                 }
                                 .bottom_three {
                                     display: flex;
                                     justify-content: space-between;
                                     // HORIZ GAP FOR THE SECOND ROW
                                     gap: 1.5em;
-                                    // gap: .5em;
+                                    // NEW HORIZ GAP
+                                    // gap: 2em;
+                                    // gap: 3em;
                                 }
                             }
                             // THE SECOND SIX
@@ -1491,24 +1533,34 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // VERT GAP FOR THE BOTTOM 3
                                 display: flex;
                                 flex-direction: column;
+                                // ORIG GAP
                                 gap: 2em;
-                                gap: 1.5em;
+                                // NEW GAP
+                                // gap: 3em;
+                                // gap: 1.5em;
                                .top_three {
                                 display: flex;
                                 justify-content: space-between;
                                 // HORIZ GAP FOR TOP 3
                                 gap: 1.5em;
-                                // gap: .5em;
+                                // gap: 2em;
                                }
                                .bottom_three {
                                     display: flex;
                                     justify-content: space-between;
                                     // HORIZ GAP FOR BOTTOM 3
                                     gap: 1.5em;
+                                    gap: 2em;
                                     // gap: .5em;
                                }
                             }
                         }
+                    }
+                     // Next Down
+                     .next_section_down {
+                        display: flex;
+                        justify-content: left;
+                        margin-top: 1em;
                     }
                 }
                 ////////////////////////////////////////////////////
@@ -10737,6 +10789,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             width: 60%;
                             line-height: 2em;
                             margin: 2em 0 0 5em;
+                            // background-color: blue;
                             // margin: 10em 0 0 17em;
                         }
                         .resume_dload {
