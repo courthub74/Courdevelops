@@ -554,9 +554,11 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Original Font Size
                             font-size: .9rem;
                             // New font size
-                            font-size: 1rem;
+                            // font-size: 1rem;
                             // Original line height
                             line-height: 1.5em;
+                            // New Line Height
+                            line-height: 1.7em;
                             // New Margin for paragraphs
                             margin: 2em 0 0 0;
                             // Original Width
@@ -625,7 +627,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     .portfolio_section_content {
                         // margin: 0 3em 0 3em;
                         margin: 0 1em 0 1em;
-                        margin: 1em 1em 0 1em;
+                        // margin: 1em 1em 0 1em;
                         // border-bottom: 1px solid white;
                         // padding-bottom: 6em;
                         overflow: hidden;
@@ -661,8 +663,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             flex-direction: column;
                             // justify-content: center;
                             // align-items: center;
+                            // OLD GAP
+                            gap: 2.5em;
                             // NEW GAP
-                            gap: 3em;
+                            // gap: 3em;
                             margin-top: 70px;
                             margin-top: 50px;
                             /////////////////////
