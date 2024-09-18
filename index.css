@@ -476,7 +476,7 @@
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 3em;
     margin-top: 70px;
     margin-top: 50px;
   }
