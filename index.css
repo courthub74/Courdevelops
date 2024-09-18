@@ -415,7 +415,6 @@
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     line-height: 1.5em;
-    line-height: 1.7em;
     margin: 2em 0 0 0;
     width: 80%;
     width: 85%;
@@ -438,7 +437,6 @@
   body #whole_page .whole_page .about_section .next_section_down {
     display: flex;
     justify-content: left;
-    margin-top: 1em;
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
