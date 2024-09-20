@@ -10969,10 +10969,10 @@
     height: 2em;
   }
   body #footer_section_id .footer_section_content {
+    padding: 2em 5em 2em 5em;
     border-top: #00313E 3px solid;
     background-color: #060927;
-    background-color: #00C6C3;
-    height: 10em;
+    height: 7em;
     filter: opacity(90%);
   }
   body #footer_section_id .footer_section_content .footer_elements {
