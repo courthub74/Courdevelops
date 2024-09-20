@@ -10553,7 +10553,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         }
 }
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////DESKTOP///////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+/// 
 // BIGGER SCREENS
 @media only screen and (min-width: 1200px) {
     body {
@@ -10722,7 +10729,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 font-weight: bold;
                                 // color: $footerblue;
                                 padding: 1em 7em;
-                                border-top: 3px solid rgba(255, 255, 255, 0.664);
+                                // Border Top
+                                // border-top: 3px solid rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
                                 font-weight: bold;
@@ -10785,40 +10793,55 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 display: none;
                             }
                         }
+                        // We want to move these and make them bigger
                         .about_words {
                             display: flex;
                             flex-direction: column;
                             align-items: left;
                             // justify-content: center;
                             font-family: 'Inter', sans-serif;
+                            // Old font size
                             font-size: 1rem;
+                            // New font size
+                            // font-size: 3.5rem;
                             color: white;
                             width: 60%;
-                            line-height: 2em;
-                            margin: 2em 0 0 5em;
-                            // background-color: blue;
-                            // margin: 10em 0 0 17em;
+                            p {
+                                // New font size
+                                font-size: 1.3rem;
+                                //New Margin
+                                margin: 2em 0 0 0;
+                                // Original Line height
+                                line-height: 2em;
+                            }
                         }
                         .resume_dload {
                             background-color: white;
                             // background-color: $nextgreen;
                             // background-color: $darkblue;
                             border-top: 1px solid rgba(255, 255, 255, 0.664);
-                            padding: .5em;
+                            // padding: .5em;
+                            // Old Margin
                             margin: 2em 0 0 0;
-                            width: 12vw;
+                            // New Margin
+                            margin: 4em 0 0 0;
+                            // New Padding
+                            // padding: 1em 7em;
+                            // Original Width
+                            // width: 12vw;
                             text-align: center;
-                            // border-top: 2px solid rgba(255, 255, 255, 0.664);
-                            // border-top: 2px solid rgb(36, 158, 36);
-                            // border-top: 2px solid $darkblue;
+                            // font-size: 1.2rem;
                             a {
                                 color: $nextgreen;
                                 // color: $skillsteal;
                                 // color: white;
                                 text-decoration: none;
                                 font-weight: bold;
+                                // Old font size
                                 font-size: .9rem;
-                                // font-size: .8vw;
+                                // New font size
+                                font-size: 1.2rem;
+                                
                             }
                         }
                     }
@@ -12344,7 +12367,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 font-weight: bold;
                                 // color: $footerblue;
                                 padding: 1em 7em;
-                                border-top: 3px solid rgba(255, 255, 255, 0.664);
+                                // Border Top
+                                // border-top: 3px solid rgba(255, 255, 255, 0.664);
+                                // New Border Radius
+                                border-radius: 45px;
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
                                 font-weight: bold;
@@ -12356,8 +12382,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 }
                 .about_section {
                     background-color: $nextgreen;
-                    // background-color: $darkblue;
-                    // background-color: $skillsteal;
                     padding: 2em 2em;
                     height: 100vh;
                     // padding: 10em 2em;
@@ -12422,24 +12446,26 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         }
                         .resume_dload {
                             background-color: white;
-                            // background-color: $nextgreen;
-                            // background-color: $darkblue;
                             border-top: 1px solid rgba(255, 255, 255, 0.664);
+                            // New Border Radius
+                            border-radius: 45px;
+                            // Old Padding
                             padding: .5em;
+                            // New Padding
+                            padding: .5em 7em;
                             margin: 2em 0 0 0;
                             width: 10vw;
                             text-align: center;
-                            // border-top: 2px solid rgba(255, 255, 255, 0.664);
-                            // border-top: 2px solid rgb(36, 158, 36);
-                            // border-top: 2px solid $darkblue;
+                            // New Desktop Margin
+                            margin: 7em 0 0 0;
                             a {
                                 color: $nextgreen;
-                                // color: $skillsteal;
-                                // color: white;
                                 text-decoration: none;
                                 font-weight: bold;
+                                // Old font size
                                 font-size: .9rem;
-                                // font-size: .8vw;
+                                // New font size
+                                font-size: 1rem;
                             }
                         }
                     }

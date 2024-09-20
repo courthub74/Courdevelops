@@ -8523,7 +8523,6 @@
     color: white;
     font-weight: bold;
     padding: 1em 7em;
-    border-top: 3px solid rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
@@ -8585,15 +8584,17 @@
     font-size: 1rem;
     color: white;
     width: 60%;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .about_words p {
+    font-size: 1.3rem;
+    margin: 2em 0 0 0;
     line-height: 2em;
-    margin: 2em 0 0 5em;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.664);
-    padding: 0.5em;
     margin: 2em 0 0 0;
-    width: 12vw;
+    margin: 4em 0 0 0;
     text-align: center;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
@@ -8601,6 +8602,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
+    font-size: 1.2rem;
   }
   body #whole_page .whole_page .about_section .next_section_down {
     display: none;
@@ -9888,7 +9890,7 @@
     color: white;
     font-weight: bold;
     padding: 1em 7em;
-    border-top: 3px solid rgba(255, 255, 255, 0.664);
+    border-radius: 45px;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
@@ -9956,16 +9958,20 @@
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.664);
+    border-radius: 45px;
     padding: 0.5em;
+    padding: 0.5em 7em;
     margin: 2em 0 0 0;
     width: 10vw;
     text-align: center;
+    margin: 7em 0 0 0;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
+    font-size: 1rem;
   }
   body #whole_page .whole_page .about_section .next_section_down {
     display: none;
