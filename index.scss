@@ -10735,6 +10735,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 font-size: .9rem;
                                 font-weight: bold;
                                 text-decoration: none;
+                                // New Border Radius
+                                border-radius: 45px;
                             }
                         }
                     }
@@ -10804,33 +10806,31 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             font-size: 1rem;
                             // New font size
                             // font-size: 3.5rem;
+                            margin: 2em 0 0 5em;
                             color: white;
                             width: 60%;
                             p {
                                 // New font size
-                                font-size: 1.3rem;
+                                font-size: 1.2rem;
                                 //New Margin
                                 margin: 2em 0 0 0;
                                 // Original Line height
-                                line-height: 2em;
+                                line-height:1.5em;
                             }
                         }
                         .resume_dload {
                             background-color: white;
-                            // background-color: $nextgreen;
-                            // background-color: $darkblue;
-                            border-top: 1px solid rgba(255, 255, 255, 0.664);
-                            // padding: .5em;
+                            // border-top: 1px solid rgba(255, 255, 255, 0.664);
                             // Old Margin
                             margin: 2em 0 0 0;
                             // New Margin
-                            margin: 4em 0 0 0;
+                            margin: 6em 0 0 0;
                             // New Padding
-                            // padding: 1em 7em;
+                            padding: .5em;
                             // Original Width
-                            // width: 12vw;
+                            width: 20vw;
                             text-align: center;
-                            // font-size: 1.2rem;
+                            border-radius: 45px;
                             a {
                                 color: $nextgreen;
                                 // color: $skillsteal;
@@ -10840,7 +10840,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // Old font size
                                 font-size: .9rem;
                                 // New font size
-                                font-size: 1.2rem;
+                                font-size: 1rem;
                                 
                             }
                         }

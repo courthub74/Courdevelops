@@ -8527,6 +8527,7 @@
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 45px;
   }
   body #whole_page .whole_page .about_section {
     background-color: #00313E;
@@ -8582,27 +8583,30 @@
     align-items: left;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
+    margin: 2em 0 0 5em;
     color: white;
     width: 60%;
   }
   body #whole_page .whole_page .about_section .about_section_content .about_words p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 2em 0 0 0;
-    line-height: 2em;
+    line-height: 1.5em;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
-    border-top: 1px solid rgba(255, 255, 255, 0.664);
     margin: 2em 0 0 0;
-    margin: 4em 0 0 0;
+    margin: 6em 0 0 0;
+    padding: 0.5em;
+    width: 20vw;
     text-align: center;
+    border-radius: 45px;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   body #whole_page .whole_page .about_section .next_section_down {
     display: none;
