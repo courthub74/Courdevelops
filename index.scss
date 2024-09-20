@@ -10569,7 +10569,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
             display: none;
         }
         #whole_page {
-            // background-color: $darkblue;
+            // Original Height
             height: 520vh;
             // height: 485vh;
             // ALL SECTIONS ARE UNDER THIS DIV
@@ -12206,8 +12206,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
             display: none;
         }
         #whole_page {
-            // background-color: $darkblue;
+            // Original Height
             height: 520vh;
+            // New Height
+            // height: 530vh;
             // height: 485vh;
             // ALL SECTIONS ARE UNDER THIS DIV
             background-color: $darkblue;
@@ -13345,11 +13347,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 /// EXPERIENCE SECTION
                 .experience_section {
                     background-color: $darkblue;
-                    padding: 3em 0 1em 0;
+                    // background-color: red;
+                    // padding: 3em 0 1em 0;
                     // padding: 3em 0 0em 0;
                     .experience_section_content {
-                        // background-color: #58a6ff;
-                        // height: 100vh;
                         display: flex;
                         flex-direction: column;
                         gap: 2em;
@@ -13404,8 +13405,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             gap: 2%;
                             margin: 2em 0 7em 0;
                             margin: -1em 0 7em 0;
-                            // margin: 2em 0 5em 0;
-                            // background-color: red;
                             box-sizing: border-box;
                             .square {
                                 display: flex;
@@ -13505,7 +13504,9 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 box-sizing: border-box;
                             }
                         }
-                        //////////////////////////////////////////////////
+                    }
+                }
+                //////////////////////////////////////////////////
                         // DESKTOP FOOTER
                         #footer_section_id {
                             // display: none;
@@ -13514,13 +13515,13 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Maybe it doesn't need a height here
                             
                             .footer_section_content {
-                                padding: 2em 5em 2em 5em;
+                                // padding: 2em 5em 2em 5em;
                                 border-top: $nextgreen 3px solid;
                                 background-color: #060927;
-                                // background-color: #00C6C3;
-                                height: 6em;
-                                margin: -1em 0 0 0;
-                                margin: -5em 0 0 0;
+                                // Test Color
+                                background-color: #00C6C3;
+                                // margin: 1em 0 0 0;
+                                // height: 6em;
                                 // border-top: 3px solid $skillsteal;
                                 filter: opacity(90%);
                                 // width: 100%;
@@ -13693,8 +13694,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 }
                             }
                         }
-                    }
-                }
                 // MOBILE FOOTER NO DISPLAY
                 .mobile_footer {
                     display: none;
