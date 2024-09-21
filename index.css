@@ -1458,6 +1458,14 @@
     padding-top: 10%;
   }
 }
+@media only screen and (min-width: 400) and (max-width: 450px) {
+  body {
+    background-color: #080E2F;
+  }
+  body #whole_page {
+    display: none;
+  }
+}
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
   body {
     background-color: #080E2F;
@@ -9759,7 +9767,6 @@
   }
   body #whole_page {
     height: 520vh;
-    height: 540vh;
     background-color: #080E2F;
   }
   body #whole_page .whole_page {
@@ -10973,10 +10980,10 @@
     height: 2em;
   }
   body #footer_section_id {
-    margin: 3em 0 0 0;
+    margin: 4em 0 0 0;
   }
   body #footer_section_id .footer_section_content {
-    padding: 2em 5em 2em 5em;
+    padding: 2em 5em 4em 5em;
     border-top: #00313E 3px solid;
     background-color: #060927;
     height: 7em;

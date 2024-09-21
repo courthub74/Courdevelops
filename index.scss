@@ -1916,7 +1916,16 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
         // }
     }
 
-
+//////////////////////////////////////////////////////////////////////
+/// LARGER PHONES
+@media only screen and (min-width: 400) and (max-width: 450px) {
+    body {
+        background-color: $darkblue;
+        #whole_page {
+            display: none;
+        }
+    }
+}
 
 // Landscape
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
@@ -12213,8 +12222,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
             // Original Height
             height: 520vh;
             // New Height
-            height: 540vh;
-            // height: 485vh;
+            // height: 480vh;
             // ALL SECTIONS ARE UNDER THIS DIV
             background-color: $darkblue;
             .whole_page {
@@ -13658,21 +13666,20 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
             }
         }
         //////////////////////////////////////////////////
-                // DESKTOP FOOTER
+            // DESKTOP FOOTER
                 #footer_section_id {
                     // display: none;
-                    margin: 3em 0 0 0;
+                    margin: 4em 0 0 0;
                     // background-color: blue;
                     // position: static;
                     // Maybe it doesn't need a height here
                     
                     .footer_section_content {
-                        padding: 2em 5em 2em 5em;
+                        padding: 2em 5em 4em 5em;
                         border-top: $nextgreen 3px solid;
                         background-color: #060927;
                         // Test Color
                         // background-color: #00C6C3;
-                        // margin: 1em 0 0 0;
                         height: 7em;
                         // border-top: 3px solid $skillsteal;
                         filter: opacity(90%);
