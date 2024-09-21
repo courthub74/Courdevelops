@@ -8388,6 +8388,7 @@
   }
   body #whole_page {
     height: 520vh;
+    height: 485vh;
     background-color: #080E2F;
   }
   body #whole_page .whole_page {
@@ -9397,8 +9398,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #060927;
-    background-color: #33365B;
     background: linear-gradient(45deg, #3b3e93, #060927);
     height: 27em;
     width: 27em;
@@ -9592,6 +9591,9 @@
     width: 2em;
     height: 2em;
   }
+  body #footer_section_id {
+    margin: 3em 0 0 0;
+  }
   body #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;
     border-top: #00313E 3px solid;
@@ -9757,6 +9759,7 @@
   }
   body #whole_page {
     height: 520vh;
+    height: 540vh;
     background-color: #080E2F;
   }
   body #whole_page .whole_page {
@@ -10040,8 +10043,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #060927;
-    background-color: #33365B;
     background: linear-gradient(45deg, #3b3e93, #060927);
     padding: 15px;
     height: 35em;
@@ -10778,8 +10779,6 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #060927;
-    background-color: #33365B;
     background: linear-gradient(45deg, #3b3e93, #060927);
     height: 29em;
     width: 27em;
@@ -10972,6 +10971,9 @@
   body #whole_page .whole_page .mobile_footer .footer_elements .footer_logo small #footer_logo {
     width: 2em;
     height: 2em;
+  }
+  body #footer_section_id {
+    margin: 3em 0 0 0;
   }
   body #footer_section_id .footer_section_content {
     padding: 2em 5em 2em 5em;
