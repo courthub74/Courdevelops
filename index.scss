@@ -52,7 +52,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
 }
 
 // Portrait
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 399px) {
     body {
         background-color: $darkblue;
         #whole_page {
@@ -480,8 +480,9 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // }
                             }
                             .learn_more {
-                                border-top: 2px solid white;
-                                border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                // border-top: 2px solid white;
+                                // border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                border-radius: 45px;
                                 background-color: $nextgreen;
                                 padding: 1em 5em;
                                 font-size: .9rem;
@@ -1918,7 +1919,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
 
 //////////////////////////////////////////////////////////////////////
 /// LARGER PHONES
-@media only screen and (min-width: 400) and (max-width: 450px) {
+@media only screen and (min-width: 400px) and (max-width: 450px) {
     body {
         background-color: $darkblue;
         #whole_page {
