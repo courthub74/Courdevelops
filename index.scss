@@ -2344,7 +2344,34 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 ///////////////////////////////////////////////////////
                 ///////////////////////////////////////////////////////
                 /// ABOUT SECTION
-                
+                .about_section {
+                    background-color: $nextgreen;
+                    height: 110vh;
+                    height: 100vh;
+                    overflow: hidden;
+                    .about_section_content {
+                        margin: 0 1em 0 1em;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .title_nav {
+                            display: flex;
+                           justify-content: space-between;
+                           align-items: center;
+                           padding: 2em 0 0 0;
+                           .section_title {
+                                // margin-top: 1em;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                // New font size
+                                // font-size: 2.5rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        // ABOUT DESKTOP NAV (HERE)
+                    }
+                }
             }
         }
     }

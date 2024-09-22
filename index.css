@@ -1831,6 +1831,30 @@
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more.slide {
     opacity: 0;
   }
+  body #whole_page .whole_page .about_section {
+    background-color: #00313E;
+    height: 110vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+  body #whole_page .whole_page .about_section .about_section_content {
+    margin: 0 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .title_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0 0 0;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+  }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
   body {
