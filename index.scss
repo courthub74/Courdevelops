@@ -79,8 +79,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     align-items: center;
                     position: relative;
                     top: 35px;
-                    // left: 40px;
-                    // background-color: #00C6C3;
                     height: 100vh;
                     width: 80%;
                     //////////////////////////////
@@ -92,11 +90,9 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         display: flex;
                         flex-direction: column;
                         gap: .5em;
-                        // justify-content: right;
                         align-items: center;
                         position: absolute;
                         left: 5px;
-                        // background-color: #00313E;
                         height: 100%;
                         width: 100%;
                         font-family: 'Inter', sans-serif;
@@ -113,8 +109,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 align-items: center;
                                 margin: -15em 0 0 0;
                                 gap: 1em;
-                                // background-color: #00C6C3;
-                                // height: 50%;
                                 background-color: white;
                                 background-color: $footerblue;
                                 border: 1px solid white;
@@ -175,7 +169,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     width: 1.2em;
                                 }
                             }
-                            // For Home Button Dissapeared
+                            // For Home Button Dissapeared (just in case)
                             // #back_home.gone {
 
                             // }
@@ -306,13 +300,12 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                        background: none;
                        position: fixed;
                        top: 0;
-                    //    margin: 0 2em 0 0;
                        transition: .2s all ease-in;
                        z-index: 50;
                         .title_nav {
                             display: none;
                         }
-                        // The Whole Menu Bar for Sticky
+                        // The Whole Menu Bar for Sticky and the Contact Button
                         .menu_and_button {
                             // background-color: #00C6C3;
                             width: 100%;
@@ -376,13 +369,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 border: 2px solid white;
                             }
                         }
-                        // For the Hamburger
-                        // .mobile_nav {
-                        //     #mobile_nav {
-                        //        width: 2em;
-                        //        height: 2em;
-                        //     }
-                        //  }
                    }
                 //    Nav Dissapear
                 #desktop_nav.dissapear {
@@ -398,7 +384,6 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         justify-content: center;
                         align-items: center;
                         gap: 1.5em;
-                        // height: 78vh;
                         margin: 2em 0 0 0;
                         .home_logo {
                             #home_logo {
@@ -1918,17 +1903,457 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
     }
 
 //////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
 /// LARGER PHONES
 @media only screen and (min-width: 400px) and (max-width: 450px) {
     body {
         background-color: $darkblue;
         #whole_page {
             display: none;
+            .slide_in_menu {
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: $darkblue;
+                width: 100%;
+                height: 105vh;
+                position: absolute;
+                opacity: 0;
+                // visibility: hidden;
+                transition: .2s all ease-in;
+                #courdevelops_landscape_logo {
+                    display: none;
+                }
+                .slide_in_contents {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    top: 35px;
+                    height: 100vh;
+                    width: 80%;
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
+                    /// THESE CONTENTS HIDDEN
+                    // display: none;
+                    .menu_contents {
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5em;
+                        align-items: center;
+                        position: absolute;
+                        left: 5px;
+                        height: 100%;
+                        width: 100%;
+                        font-family: 'Inter', sans-serif;
+                        // ALL CONTACTS
+                        .all_contacts {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            height: 100vh;
+                            // display: none;
+                            .email_square {
+                                display: flex;
+                                align-items: center;
+                                margin: -15em 0 0 0;
+                                gap: 1em;
+                                background-color: white;
+                                background-color: $footerblue;
+                                border: 1px solid white;
+                                padding: 1em;
+                                p {
+                                    font-size: 1.1rem;
+                                    font-weight: bold;
+                                    color: $darkblue;
+                                    color: white;
+                                }
+                                button {
+                                    background-color: $darkblue;
+                                    // background-color: $nextgreen;
+                                    border: none;
+                                    height: 3em;
+                                    width: 3em;
+                                    padding: 1.5em;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    border-radius: 5px;
+                                    img {
+                                        height: 1.5em;
+                                        width: 1.5em;
+                                    }
+                                    #copy_squares {
+                                        position: absolute;
+                                        transition: .4s all ease-in;
+                                    }
+                                    #copy_squares.tapped {
+                                        opacity: 0;
+                                    }
+                                    #copy_success {
+                                        opacity: 0;
+                                        transition: .6s all ease-in-out;
+                                    }
+                                    #copy_success.tapped {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            // Back to Home Button
+                            #back_home {
+                                background: none;
+                                border: none;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                font-size: 1rem;
+                                color: white;
+                                margin-top: 2em;
+                                cursor: pointer;
+                                display: flex;
+                                align-items: center;
+                                gap: .5em;
+                                #home_page {
+                                    height: 1.2em;
+                                    width: 1.2em;
+                                }
+                            }
+                            // For Home Button Dissapeared (just in case)
+                            // #back_home.gone {
+
+                            // }
+                            // Email Copied words
+                            .email_copied {
+                                text-align: right;
+                                width: 100%;
+                                // background-color: #00313E;
+                                padding: 1em 0 0 .4em;
+                                
+                                p {
+                                    font-size: .8rem;
+                                }
+                            }
+                            #email_copy {
+                                opacity: 0;
+                                transition: .4s all ease-in;
+                            }
+                            #email_copy.tapped {
+                                opacity: 1;
+                            }
+                        }
+                        .landscape_contents {
+                            width: 100%;
+                        }
+                        .section_title {
+                            font-family: 'Inter', sans-serif;
+                            font-size: 2.2rem;
+                            color: white;
+                            font-weight: bold;
+                            width: 100%;
+                        }
+                        // INPUTS
+                        input {
+                            background-color: $darkblue;
+                            border: 3px solid white;
+                            width: 85%;
+                            width: 95%;
+                            height: 3em;
+                            color: white;
+                        }
+                        // TEXTAREA
+                        textarea {
+                            background-color: $darkblue;
+                            border: 3px solid white;
+                            width: 85%;
+                            width: 95%;
+                            height: 15em;
+                            resize: none;
+                            color: white;
+                        }
+                        .name_section {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            width: 100%;
+                            margin-top: 1em;
+                        }  
+                        .subject_section {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            width: 100%;
+                            // margin-top: 1em;
+                        }
+                        .phone_section {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            width: 100%;
+                        }
+                        // MESSAGE SECTION
+                        .message_section {
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5em;
+                            width: 100%;
+                            // background-color: #00313E;
+                            // Submit Button
+                            .submit_button {
+                                color: $darkblue;
+                                background-color: white;
+                                box-sizing: border-box;
+                                width: 87%;
+                                width: 100%;
+                                height: 3em;
+                                border: none;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                margin: 1em 0 0 0;
+                                font-size: .8rem;
+                            }
+                        }
+                    }
+                }
+            }
+            // EMAIL DISPLAY HERE
+            #slide_in_menu.tapped {
+                opacity: 1;
+                // visibility: visible;
+            }
+            .whole_page {
+                // display: none;
+                background-color: $darkblue;
+                height: 600vh;
+                height: 500vh;
+                // OVERFLOW FOR THE BOUNCE
+                // overflow: auto;
+                // overscroll-behavior-y: contain;
+                // height: 400vh;
+                .home_section_content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 1em 0 1em;
+                    padding: 0em 0 4em 0;
+                    height: 100vh;
+                    // border-bottom: 1px solid white;
+                    #desktop_nav {
+                    // Make THIS sticky
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       width: 100%;
+                       background-color: $darkblue;
+                       background-color: $filteredNav;
+                       background: none;
+                       position: fixed;
+                       top: 0;
+                       transition: .2s all ease-in;
+                       z-index: 50;
+                        .title_nav {
+                            display: none;
+                        }
+                        // The Whole Menu Bar for Sticky and the Contact Button
+                        .menu_and_button {
+                            // background-color: #00C6C3;
+                            width: 100%;
+                            padding: 1em;
+                            display: flex;
+                            justify-content: right;
+                            align-items: center;
+                            .home_desktop_nav {
+                                ul {
+                                    display: none;
+                                }
+                            }
+                            // The Circle Button 
+                            .nav_button {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 2px solid white;
+                                border: 2px solid $nextgreen;
+                                background-color: $footerblue;
+                                border-radius: 50%;
+                                height: 3.5em;
+                                width: 3.5em;
+                                height: 4.5em;
+                                width: 4.5em;
+                                margin: .5em 0 0 -4.5em;
+                                margin: .5em 1em 0 0em;
+                                transition: .3s all ease-in;
+                                .inner_nav_button {
+                                    background-color: white;
+                                    background-color: $nextgreen;
+                                    // color: $darkblue;
+                                    // color: white;
+                                    font-weight: bold;
+                                    border: none;
+                                    height: 2.4em;
+                                    width: 2.4em;
+                                    // height: 3.4em;
+                                    // width: 3.4em;
+                                    border-radius: 50%;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .7rem;
+                                    padding: 2.5em;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    transition: .3s all ease-in;
+                                    #menu_text {
+                                        color: white;
+                                    }
+                                    #menu_text.tapped {
+                                        color: $darkblue;
+                                    }
+                                }
+                                #menu_button.tapped {
+                                    background-color: white;
+                                    
+                                }
+                            }
+                            #menu_ring.tapped {
+                                border: 2px solid white;
+                            }
+                        }
+                    }
+                    // Nav Dissapear
+                    #desktop_nav.dissapear {
+                        top: -100px;
+                    }
+                     //    // Nav Dissapeared
+                    //     #desktop_nav.dissapear {
+                    //         opacity: 0;
+                    //     }
+                    .big_logo_and_square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1.5em;
+                        margin: 2em 0 0 0;
+                        .home_logo {
+                            #home_logo {
+                                border: 3px solid $nextgreen;
+                                border-radius: 50%;
+                                width: 50vw;
+                                height: 50vw;
+                                width: 15em;
+                                height: 15em;
+                                box-shadow: 3px 3px 3px black;
+                            }
+                        }
+                        .home_square {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2em;
+                            header {
+                                background-color: $footerblue;
+                                width: 17em;
+                                width: 14em;
+                                // For the Custom Apps
+                                padding: 1em 0 1em 0;
+                                // For the Born Name
+                                padding: .8em 0 .8em 0;
+                                text-align: center;
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                border-top: 3px solid $nextgreen;
+                                box-shadow: 2px 2px 2px black;
+                                // For the Custom Apps
+                                font-size: 1rem;
+                                // For the Born Name
+                                font-size: 1.2rem;
+                            }
+                            .slogan {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                width: 80%;
+                                text-align: center;
+                                font-size: .9rem;
+                                // New font size
+                                font-size: 1em;
+                            }
+                            .socials_block {
+                                display: flex;
+                                align-items: center;
+                                gap: 1.5em;
+                                gap: 2em;
+                                #github_home {
+                                    width: 2.1em;
+                                    height: 2.1em;
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                }
+                                #linkedin_home {
+                                    width: 2.7em;
+                                    height: 2.7em;
+                                    width: 2em;
+                                    height: 2em;
+                                }
+                                #instagram_home {
+                                    width: 3em;
+                                    height: 3em;
+                                    width: 2.2em;
+                                    height: 2.2em;
+                                }
+                                #twitter_home {
+                                    width: 2.2em;
+                                    height: 2.2em;
+                                    width: 1.5em;
+                                    height: 1.5em;
+                                }
+                                // img {
+                                //     width: 2.3em;
+                                //     height: 2.3em;
+                                // }
+                            }
+                            .learn_more {
+                                // border-top: 2px solid white;
+                                // border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                border-radius: 45px;
+                                background-color: $nextgreen;
+                                padding: 1em 5em;
+                                font-size: .9rem;
+                                font-weight: bold;
+                                color: white;
+                                text-decoration: none;
+                                font-family: 'Inter', sans-serif;
+                                // box-shadow: 2px 2px 2px black;
+                                z-index: 60;
+                                // transition: .3s all ease-in;
+                            }
+                            .learn_more.slide {
+                                // display: none;
+                                opacity: 0;
+                                // visibility: hidden;
+                            }
+                        }
+                    }
+                }
+                ///////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////
+                /// ABOUT SECTION
+                
+            }
         }
     }
 }
 
-// Landscape
+
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+// LANDSCAPE PHONES
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
     body {
         background-color: $darkblue;

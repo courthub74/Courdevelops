@@ -1465,6 +1465,372 @@
   body #whole_page {
     display: none;
   }
+  body #whole_page .slide_in_menu {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080E2F;
+    width: 100%;
+    height: 105vh;
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s all ease-in;
+  }
+  body #whole_page .slide_in_menu #courdevelops_landscape_logo {
+    display: none;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    height: 100vh;
+    width: 80%;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    position: absolute;
+    left: 5px;
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square {
+    display: flex;
+    align-items: center;
+    margin: -15em 0 0 0;
+    gap: 1em;
+    background-color: white;
+    background-color: #060927;
+    border: 1px solid white;
+    padding: 1em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #080E2F;
+    color: white;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button {
+    background-color: #080E2F;
+    border: none;
+    height: 3em;
+    width: 3em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button img {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button #copy_squares {
+    position: absolute;
+    transition: 0.4s all ease-in;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button #copy_squares.tapped {
+    opacity: 0;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button #copy_success {
+    opacity: 0;
+    transition: 0.6s all ease-in-out;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_square button #copy_success.tapped {
+    opacity: 1;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts #back_home {
+    background: none;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    margin-top: 2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts #back_home #home_page {
+    height: 1.2em;
+    width: 1.2em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_copied {
+    text-align: right;
+    width: 100%;
+    padding: 1em 0 0 0.4em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts .email_copied p {
+    font-size: 0.8rem;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts #email_copy {
+    opacity: 0;
+    transition: 0.4s all ease-in;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .all_contacts #email_copy.tapped {
+    opacity: 1;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .landscape_contents {
+    width: 100%;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents input {
+    background-color: #080E2F;
+    border: 3px solid white;
+    width: 85%;
+    width: 95%;
+    height: 3em;
+    color: white;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents textarea {
+    background-color: #080E2F;
+    border: 3px solid white;
+    width: 85%;
+    width: 95%;
+    height: 15em;
+    resize: none;
+    color: white;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .name_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+    margin-top: 1em;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .subject_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .phone_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .message_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+  }
+  body #whole_page .slide_in_menu .slide_in_contents .menu_contents .message_section .submit_button {
+    color: #080E2F;
+    background-color: white;
+    box-sizing: border-box;
+    width: 87%;
+    width: 100%;
+    height: 3em;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    font-size: 0.8rem;
+  }
+  body #whole_page #slide_in_menu.tapped {
+    opacity: 1;
+  }
+  body #whole_page .whole_page {
+    background-color: #080E2F;
+    height: 600vh;
+    height: 500vh;
+  }
+  body #whole_page .whole_page .home_section_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 0 1em;
+    padding: 0em 0 4em 0;
+    height: 100vh;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #080E2F;
+    background-color: rgba(8, 14, 47, 0.8431372549);
+    background: none;
+    position: fixed;
+    top: 0;
+    transition: 0.2s all ease-in;
+    z-index: 50;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .title_nav {
+    display: none;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button .home_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button .nav_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border: 2px solid #00313E;
+    background-color: #060927;
+    border-radius: 50%;
+    height: 3.5em;
+    width: 3.5em;
+    height: 4.5em;
+    width: 4.5em;
+    margin: 0.5em 0 0 -4.5em;
+    margin: 0.5em 1em 0 0em;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button .nav_button .inner_nav_button {
+    background-color: white;
+    background-color: #00313E;
+    font-weight: bold;
+    border: none;
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 50%;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    padding: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease-in;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button .nav_button .inner_nav_button #menu_text {
+    color: white;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button .nav_button .inner_nav_button #menu_text.tapped {
+    color: #080E2F;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button .nav_button #menu_button.tapped {
+    background-color: white;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav .menu_and_button #menu_ring.tapped {
+    border: 2px solid white;
+  }
+  body #whole_page .whole_page .home_section_content #desktop_nav.dissapear {
+    top: -100px;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    margin: 2em 0 0 0;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_logo #home_logo {
+    border: 3px solid #00313E;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    width: 15em;
+    height: 15em;
+    box-shadow: 3px 3px 3px black;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square header {
+    background-color: #060927;
+    width: 17em;
+    width: 14em;
+    padding: 1em 0 1em 0;
+    padding: 0.8em 0 0.8em 0;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border-top: 3px solid #00313E;
+    box-shadow: 2px 2px 2px black;
+    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .slogan {
+    color: white;
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-size: 1em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #github_home {
+    width: 2.1em;
+    height: 2.1em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #linkedin_home {
+    width: 2.7em;
+    height: 2.7em;
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #instagram_home {
+    width: 3em;
+    height: 3em;
+    width: 2.2em;
+    height: 2.2em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block #twitter_home {
+    width: 2.2em;
+    height: 2.2em;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more {
+    border-radius: 45px;
+    background-color: #00313E;
+    padding: 1em 5em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    z-index: 60;
+  }
+  body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .learn_more.slide {
+    opacity: 0;
+  }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
   body {
