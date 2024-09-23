@@ -1833,8 +1833,8 @@
   }
   body #whole_page .whole_page .about_section {
     background-color: #00313E;
-    height: 110vh;
     height: 100vh;
+    height: 90vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
@@ -1908,8 +1908,8 @@
   }
   body #whole_page .whole_page .portfolio_section {
     background-color: #080E2F;
-    height: 150vh;
     height: 100vh;
+    height: 90vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content {
@@ -2179,6 +2179,7 @@
   body #whole_page .whole_page .skills_section {
     background-color: #00313E;
     height: 110vh;
+    height: 90vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .skills_section .skills_section_content {
@@ -2217,6 +2218,8 @@
     border-radius: 50%;
     height: 6em;
     width: 6em;
+    height: 7em;
+    width: 7em;
     box-shadow: 2px 2px 2px black;
     box-sizing: border-box;
   }
@@ -2633,6 +2636,124 @@
     box-sizing: border-box;
     background-color: #080E2F;
     box-shadow: none;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    height: 90%;
+    margin-top: 50px;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles .first_six .top_three {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles .first_six .bottom_three {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles .second_six {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles .second_six .top_three {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+  }
+  body #whole_page .whole_page .skills_section .skills_circles .second_six .bottom_three {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+    gap: 2em;
+  }
+  body #whole_page .whole_page .next_section_down {
+    justify-content: left;
+    margin-top: 3em;
+  }
+  body #whole_page .whole_page .next_section_down a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.509);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .next_section_down img {
+    height: 25px;
+  }
+  body #whole_page .experience_section {
+    background-color: #080E2F;
+    height: 110vh;
+    height: 90vh;
+  }
+  body #whole_page .experience_section .experience_section_content {
+    margin: 0 3em 0 3em;
+    margin: 0em 1em 0 1em;
+  }
+  body #whole_page .experience_section .experience_section_content .title_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0 0 0;
+  }
+  body #whole_page .experience_section .experience_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .experience_section .experience_section_content .mobile_nav {
+    display: none;
+  }
+  body #whole_page .experience_section .experience_section_content .mobile_nav #mobile_nav {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 70px;
+    margin-top: 50px;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #060927;
+    background-color: #33365B;
+    background-color: #36395D;
+    background: linear-gradient(45deg, #3b3e93, #060927);
+    border-top: 3px solid #00313E;
+    border-top: 3px solid #61677A;
+    box-shadow: 2px 2px 2px black;
+    height: 19%;
+    height: 10em;
+    width: 100%;
+    transition: 0.3s all ease-out;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    height: 100%;
+    margin-top: 4em;
   }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
