@@ -2139,7 +2139,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    // Original Margin
                     margin: 0 1em 0 1em;
+                    // New Margin
+                    margin: -3em 1em 0 1em;
                     padding: 0em 0 4em 0;
                     height: 100vh;
                     // border-bottom: 1px solid white;
@@ -2292,26 +2295,26 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 #github_home {
                                     width: 2.1em;
                                     height: 2.1em;
-                                    width: 1.5em;
-                                    height: 1.5em;
+                                    // width: 1.5em;
+                                    // height: 1.5em;
                                 }
                                 #linkedin_home {
                                     width: 2.7em;
                                     height: 2.7em;
-                                    width: 2em;
-                                    height: 2em;
+                                    // width: 2em;
+                                    // height: 2em;
                                 }
                                 #instagram_home {
                                     width: 3em;
                                     height: 3em;
-                                    width: 2.2em;
-                                    height: 2.2em;
+                                    // width: 2.2em;
+                                    // height: 2.2em;
                                 }
                                 #twitter_home {
-                                    width: 2.2em;
-                                    height: 2.2em;
-                                    width: 1.5em;
-                                    height: 1.5em;
+                                    width: 2.1em;
+                                    height: 2.1em;
+                                    // width: 1.5em;
+                                    // height: 1.5em;
                                 }
                                 // img {
                                 //     width: 2.3em;
