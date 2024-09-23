@@ -1462,9 +1462,6 @@
   body {
     background-color: #080E2F;
   }
-  body #whole_page {
-    display: none;
-  }
   body #whole_page .slide_in_menu {
     color: white;
     display: flex;
@@ -1854,6 +1851,92 @@
     font-size: 2.2rem;
     color: white;
     font-weight: bold;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .about_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .mobile_nav {
+    display: none;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .mobile_nav #mobile_nav {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .about_words {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-size: 1rem;
+    line-height: 1.5em;
+    line-height: 1.7em;
+    margin: 2em 0 0 0;
+    width: 80%;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .resume_dload {
+    background-color: white;
+    padding: 0.7em 0 0.7em 0;
+    width: 14em;
+    margin: 2em 0 0 0;
+    margin: 3em 0 0 0;
+    text-align: center;
+    border-radius: 45px;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .resume_dload a {
+    color: #00313E;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+  body #whole_page .whole_page .about_section .next_section_down {
+    justify-content: left;
+    margin-top: 3em;
+  }
+  body #whole_page .whole_page .about_section .next_section_down a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.509);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .about_section .next_section_down img {
+    height: 25px;
+  }
+  body #whole_page .whole_page .portfolio_section {
+    background-color: #080E2F;
+    height: 150vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content {
+    margin: 0 1em 0 1em;
+    overflow: hidden;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0 0 0;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .title_nav .section_title {
+    font-family: "Inter", sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_desktop_nav ul {
+    display: none;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .mobile_nav {
+    display: none;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .mobile_nav #mobile_nav {
+    width: 2em;
+    height: 2em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares {
+    display: none;
   }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
@@ -3141,9 +3224,6 @@
   body .whole_page .experience_section .experience_section_content .experience_squares #roll_three.tapped {
     opacity: 1;
   }
-  body .whole_page #footer_section_id {
-    display: none;
-  }
   body .whole_page .mobile_footer {
     background-color: #060927;
     border-top: 3px solid #00313E;
@@ -3225,6 +3305,9 @@
     overflow: hidden;
   }
   .next_section_down {
+    display: none;
+  }
+  #footer_section_id {
     display: none;
   }
 }

@@ -36,6 +36,7 @@ $firstblue: #58a6ff;
 $savethis: #7273ad;
 // Next Section Down
 $nextsection: rgba(255, 255, 255, 0.509);
+$nextsectiongrey: #61677A;
 
 // Grey Button line
 // $buttongrey: rgba(255, 255, 255, 0.664);
@@ -1910,7 +1911,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
     body {
         background-color: $darkblue;
         #whole_page {
-            display: none;
+            // display: none;
             .slide_in_menu {
                 color: white;
                 display: flex;
@@ -2370,6 +2371,122 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             }
                         }
                         // ABOUT DESKTOP NAV (HERE)
+                        .about_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            display: none;
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        .about_words {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            // Original Font Size
+                            font-size: .9rem;
+                            // New font size
+                            font-size: 1rem;
+                            // Original line height
+                            line-height: 1.5em;
+                            // New Line Height
+                            line-height: 1.7em;
+                            // New Margin for paragraphs
+                            margin: 2em 0 0 0;
+                            // Original Width
+                            width: 80%;
+                            // New Width
+                            // width: 85%;
+                            // background-color: #00C6C3;
+                        }
+                        .resume_dload {
+                            background-color: white;
+                            padding: .7em 0 .7em 0;
+                            width: 14em;
+                            margin: 2em 0 0 0;
+                            // New margin
+                            margin: 3em 0 0 0;
+                            text-align: center;
+                            border-radius: 45px;
+                            a {
+                                color: $nextgreen;
+                                text-decoration: none;
+                                font-weight: bold;
+                                // Original Font Size
+                                font-size: .8rem;
+                                // New font size
+                                font-size: .9rem;
+                            }
+                        }
+                    }
+                    .next_section_down {
+                        // background-color: blue;
+                        justify-content: left;
+                        margin-top: 3em;
+                        a {
+                            display: flex;
+                            // justify-content: center;
+                            align-items: center;
+                            text-decoration: none;
+                            color: $nextsection;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                        }
+                        img {
+                            height: 25px;
+                        }
+                    }
+                }
+                ////////////////////////////////////////////
+                ////////////////////////////////////////////
+                ////////////////////////////////////////////
+                ////////////////////////////////////////////
+                /// PORTFOLIO SECTION
+                .portfolio_section {
+                    background-color: $darkblue;
+                    height: 150vh;
+                    height: 100vh;
+                    overflow: hidden;
+                    .portfolio_section_content {
+                        // margin: 0 3em 0 3em;
+                        margin: 0 1em 0 1em;
+                        // margin: 1em 1em 0 1em;
+                        // border-bottom: 1px solid white;
+                        // padding-bottom: 6em;
+                        overflow: hidden;
+                        .title_nav {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 2em 0 0 0;
+                            .section_title {
+                                // margin-top: 1em;
+                                font-family: 'Inter', sans-serif;
+                                font-size: 2.2rem;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                        .portfolio_desktop_nav {
+                            ul {
+                                display: none;
+                            }
+                        }
+                        .mobile_nav {
+                            display: none;
+                            #mobile_nav {
+                                width: 2em;
+                                height: 2em;
+                            }
+                        }
+                        ////////////////////////////////////////
+                        /// PORTFOLIO SQUARES SECTION
+                        .portfolio_squares {
+                            display: none;
+                        }
                     }
                 }
             }
@@ -3956,10 +4073,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                         }
                     }
                 }
-                // DESKTOP FOOTER
-                #footer_section_id {
-                    display: none;
-                }
+                // // DESKTOP FOOTER
+                // #footer_section_id {
+                //     display: none;
+                // }
                 .mobile_footer {
                     background-color: $footerblue;
                     border-top: 3px solid $nextgreen;
@@ -4059,6 +4176,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
             overflow: hidden;
         }
         .next_section_down {
+            display: none;
+        }
+        // DESKTOP FOOTER
+        #footer_section_id {
             display: none;
         }
     }
