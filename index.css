@@ -1484,6 +1484,7 @@
     position: absolute;
     opacity: 0;
     transition: 0.2s all ease-in;
+    margin-top: 2em;
   }
   body #whole_page .slide_in_menu #courdevelops_landscape_logo {
     display: none;
@@ -2754,6 +2755,199 @@
     width: 100%;
     height: 100%;
     margin-top: 4em;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #courdevelops {
+    width: 4.5em;
+    height: 4.5em;
+    margin: -0.5em 0 0 -0.2em;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #slea {
+    width: 4em;
+    height: 4em;
+    margin: -0.5em 0 0 -0.3em;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content #r1rcm {
+    width: 3.8em;
+    height: 2.8em;
+    margin: 0 0 0.5em -0.3em;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls {
+    opacity: 0;
+    display: flex;
+    gap: 2em;
+    margin: 0 0 -3em 0;
+    transition: 0.4s all ease-in-out;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .experience_rolls p {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    padding-top: 1em;
+    color: white;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .more_experience_info {
+    background: none;
+    border: none;
+    display: none;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares .square .experience_square_content .more_experience_info .experience_more_button {
+    width: 2em;
+    height: 1em;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_one.tapped {
+    height: 12em;
+    transition: 0.3s all ease-in;
+    border-top: 3px solid white;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_two.tapped {
+    height: 12em;
+    transition: 0.3s all ease-in;
+    border-top: 3px solid white;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #experience_square_three.tapped {
+    height: 12em;
+    transition: 0.3s all ease-in;
+    border-top: 3px solid white;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #roll_one.tapped {
+    opacity: 1;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #roll_two.tapped {
+    opacity: 1;
+  }
+  body #whole_page .experience_section .experience_section_content .experience_squares #roll_three.tapped {
+    opacity: 1;
+  }
+  body #whole_page #footer_section_id {
+    display: none;
+  }
+  body .mobile_footer {
+    background-color: #00C6C3;
+    background-color: #060927;
+    border-top: 3px solid #00313E;
+    height: 7%;
+  }
+  body .mobile_footer .footer_elements {
+    margin: 3em 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+  }
+  body .mobile_footer .footer_elements .socials_footer {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+    gap: 7vw;
+  }
+  body .mobile_footer .footer_elements .socials_footer #courdevelops_mobile {
+    width: 3.5em;
+    height: 3.5em;
+    margin: 0 1em 0 0;
+  }
+  body .mobile_footer .footer_elements .socials_footer #github {
+    height: 2em;
+    width: 2em;
+    height: 1.6em;
+    width: 1.6em;
+  }
+  body .mobile_footer .footer_elements .socials_footer #linkedin {
+    height: 2.4em;
+    width: 2.4em;
+    height: 1.9em;
+    width: 1.9em;
+  }
+  body .mobile_footer .footer_elements .socials_footer #instagram {
+    height: 2.9em;
+    width: 2.9em;
+    height: 2em;
+    width: 2em;
+  }
+  body .mobile_footer .footer_elements .socials_footer #twitter {
+    height: 1.8em;
+    width: 1.8em;
+  }
+  body .mobile_footer .footer_elements .socials_footer #twitter_mobile {
+    height: 1.9em;
+    width: 1.9em;
+    height: 1.5em;
+    width: 1.5em;
+  }
+  body .mobile_footer .footer_elements #contact_slide_up {
+    width: 1.5em;
+    height: 1em;
+    margin-top: -0.5em;
+  }
+  body .mobile_footer .footer_elements .contact_me_mobile_footer {
+    background-color: #060927;
+    border: 3px solid white;
+    border: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-top: -1.8em;
+    font-size: 1.4rem;
+  }
+  body .mobile_footer .footer_elements .email_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    display: none;
+  }
+  body .mobile_footer .footer_elements .footer_list small a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    filter: opacity(30%);
+    text-decoration: none;
+  }
+  body .mobile_footer .footer_elements .footer_logo small {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    gap: 0.5em;
+    filter: opacity(30%);
+  }
+  body .mobile_footer .footer_elements .footer_logo small #footer_logo {
+    width: 2em;
+    height: 2em;
+  }
+  body .mobile_footer .footer_elements body.stop_scroll {
+    overflow: hidden;
+  }
+  body .mobile_footer .footer_elements .next_section_down {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+  }
+  body .mobile_footer .footer_elements .next_section_down a {
+    display: flex;
+    text-decoration: none;
+  }
+  body .mobile_footer .footer_elements .next_section_down a p {
+    color: rgba(255, 255, 255, 0.509);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .mobile_footer .footer_elements .next_section_down a img {
+    height: 1.3em;
+  }
+  body .mobile_footer .footer_elements #about_section_down {
+    padding-top: 15%;
+  }
+  body .mobile_footer .footer_elements #portfolio_section_down {
+    padding-top: 10%;
+  }
+  body .mobile_footer .footer_elements #skills_section_down {
+    padding-top: 10%;
   }
 }
 @media only screen and (orientation: landscape) and (max-width: 1199px) {
