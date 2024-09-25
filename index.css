@@ -3254,13 +3254,13 @@
     font-weight: bold;
     padding: 0.7em 4em;
     padding: 0.6em 3.5em;
-    border-top: 2px solid rgba(255, 255, 255, 0.664);
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: none;
     z-index: 20;
     transition: 0.3s all ease-in;
+    border-radius: 45px;
   }
   body .whole_page .home_section_content .big_logo_and_square .home_square .learn_more.slide {
     opacity: 0;
@@ -3310,6 +3310,7 @@
     width: 14em;
     margin: 2.5em 0 0 0;
     text-align: center;
+    border-radius: 45px;
   }
   body .whole_page .about_section .about_section_content .resume_dload a {
     color: #00313E;

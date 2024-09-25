@@ -4081,13 +4081,14 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 // color: $footerblue;
                                 padding: .7em 4em;
                                 padding: .6em 3.5em;
-                                border-top: 2px solid rgba(255, 255, 255, 0.664);
+                                // border-top: 2px solid rgba(255, 255, 255, 0.664);
                                 font-family: 'Inter', sans-serif;
                                 font-size: .9rem;
                                 font-weight: bold;
                                 text-decoration: none;
                                 z-index: 20;
                                 transition: .3s all ease-in;
+                                border-radius: 45px;
                             }
                             .learn_more.slide {
                                 // display: none;
@@ -4104,7 +4105,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 /// ABOUT SECTION
                 .about_section {
                     background-color: $nextgreen;
-                    // background-color: $darkblue;
+                    // background-color: red;
                     height: 110vh;
                     // height: 100vh;
                     // overflow: hidden;
@@ -4157,6 +4158,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             width: 14em;
                             margin: 2.5em 0 0 0;
                             text-align: center;
+                            border-radius: 45px;
                             a {
                                 color: $nextgreen;
                                 text-decoration: none;
@@ -11033,7 +11035,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 /// ABOUT SECTION
                 .about_section {
                     background-color: $nextgreen;
-                    // background-color: $darkblue;
+                    // background-color: red;
                     height: 100vh;
                     // height: 100vh;
                     // overflow: hidden;
