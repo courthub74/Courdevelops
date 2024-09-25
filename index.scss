@@ -157,10 +157,13 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 background: none;
                                 border: none;
                                 font-family: 'Inter', sans-serif;
-                                font-weight: bold;
+                                // font-weight: bold;
                                 font-size: 1rem;
                                 color: white;
+                                // Original Margin
                                 margin-top: 2em;
+                                // New Margin
+                                // margin-top: 25em;
                                 cursor: pointer;
                                 display: flex;
                                 align-items: center;
@@ -607,7 +610,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                 .portfolio_section {
                     background-color: $darkblue;
                     height: 150vh;
-                    height: 100vh;
+                    height: 110vh;
                     overflow: hidden;
                     // transition: .3s all ease-in;
                     // border-bottom: 1px solid white;
@@ -2003,7 +2006,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 background: none;
                                 border: none;
                                 font-family: 'Inter', sans-serif;
-                                font-weight: bold;
+                                // font-weight: bold;
                                 font-size: 1rem;
                                 color: white;
                                 margin-top: 2em;
