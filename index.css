@@ -413,7 +413,6 @@
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
     line-height: 1.5em;
-    line-height: 1.6em;
     margin: 2em 0 0 0;
     width: 80%;
     width: 100%;
@@ -10079,12 +10078,13 @@
     font-size: 1rem;
     margin: 2em 0 0 5em;
     color: white;
-    width: 60%;
+    width: 75%;
   }
   body #whole_page .whole_page .about_section .about_section_content .about_words p {
     font-size: 1.2rem;
-    margin: 2em 0 0 0;
+    margin: -1em 0 0 0;
     line-height: 1.5em;
+    line-height: 2em;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
@@ -11451,16 +11451,19 @@
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     color: white;
-    width: 60%;
-    line-height: 2em;
-    margin: 2em 0 0 5em;
+    width: 65%;
+  }
+  body #whole_page .whole_page .about_section .about_section_content .about_words p {
+    line-height: 2.2em;
+    margin: -1em 0 0 0;
+    margin: 0 0 0 0;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.664);
     border-radius: 45px;
     padding: 0.5em;
-    padding: 0.5em 7em;
+    padding: 0.7em 7em;
     margin: 2em 0 0 0;
     width: 10vw;
     text-align: center;

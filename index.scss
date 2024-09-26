@@ -548,7 +548,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Original line height
                             line-height: 1.5em;
                             // New Line Height
-                            line-height: 1.6em;
+                            // line-height: 1.6em;
                             // New Margin for paragraphs
                             margin: 2em 0 0 0;
                             // Original Width
@@ -12641,14 +12641,16 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // font-size: 3.5rem;
                             margin: 2em 0 0 5em;
                             color: white;
-                            width: 60%;
+                            width: 75%;
                             p {
                                 // New font size
                                 font-size: 1.2rem;
                                 //New Margin
-                                margin: 2em 0 0 0;
+                                margin: -1em 0 0 0;
                                 // Original Line height
                                 line-height:1.5em;
+                                // New line height
+                                line-height: 2em;
                             }
                         }
                         .resume_dload {
@@ -14278,10 +14280,16 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             font-family: 'Inter', sans-serif;
                             font-size: 1rem;
                             color: white;
-                            width: 60%;
-                            line-height: 2em;
-                            margin: 2em 0 0 5em;
-                            // margin: 10em 0 0 17em;
+                            width: 65%;
+                            // background-color: blue;
+                            p {
+                                // New Line Height
+                                line-height: 2.2em;
+                                // Original Margin
+                                margin: -1em 0 0 0;
+                                // New Margin
+                                margin: 0 0 0 0;
+                            }
                         }
                         .resume_dload {
                             background-color: white;
@@ -14291,7 +14299,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Old Padding
                             padding: .5em;
                             // New Padding
-                            padding: .5em 7em;
+                            padding: .7em 7em;
                             margin: 2em 0 0 0;
                             width: 10vw;
                             text-align: center;
