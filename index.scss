@@ -505,7 +505,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     // height: 80vh;
                     .about_section_content {
                         // margin: 0 3em 0 3em;
-                        margin: 0 1em 0 1em;
+                        margin: 0 4em 0 1em;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -544,17 +544,18 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Original Font Size
                             font-size: .9rem;
                             // New font size
-                            // font-size: 1rem;
+                            font-size: 1rem;
                             // Original line height
                             line-height: 1.5em;
                             // New Line Height
-                            // line-height: 1.7em;
+                            line-height: 1.7em;
                             // New Margin for paragraphs
                             margin: 2em 0 0 0;
                             // Original Width
                             width: 80%;
                             // New Width
-                            width: 85%;
+                            width: 100%;
+                            // background-color: blue;
                         }
                         .resume_dload {
                             background-color: white;
@@ -2278,9 +2279,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                 font-family: 'Inter', sans-serif;
                                 width: 80%;
                                 text-align: center;
+                                // Old font size
                                 font-size: .9rem;
                                 // New font size
-                                font-size: 1em;
+                                font-size: 1.1em;
                             }
                             .socials_block {
                                 display: flex;
@@ -2348,10 +2350,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     // Original ABOUT height
                     height: 100vh;
                     // New ABOUT height
-                    height: 90vh;
+                    // height: 90vh;
                     overflow: hidden;
                     .about_section_content {
-                        margin: 0 1em 0 1em;
+                        margin: 0 4em 0 1em;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -2389,7 +2391,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Original Font Size
                             font-size: .9rem;
                             // New font size
-                            font-size: 1rem;
+                            font-size: 1.1rem;
                             // Original line height
                             line-height: 1.5em;
                             // New Line Height
@@ -2399,12 +2401,15 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             // Original Width
                             width: 80%;
                             // New Width
-                            // width: 85%;
+                            width: 100%;
                             // background-color: #00C6C3;
                         }
                         .resume_dload {
                             background-color: white;
+                            // Old padding
                             padding: .7em 0 .7em 0;
+                            // New padding
+                            padding: .2em 0 .2em 0;
                             width: 14em;
                             margin: 2em 0 0 0;
                             // New margin

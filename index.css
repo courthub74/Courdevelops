@@ -381,7 +381,7 @@
     overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
-    margin: 0 1em 0 1em;
+    margin: 0 4em 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -412,10 +412,12 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.5em;
+    line-height: 1.7em;
     margin: 2em 0 0 0;
     width: 80%;
-    width: 85%;
+    width: 100%;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
@@ -1792,7 +1794,7 @@
     width: 80%;
     text-align: center;
     font-size: 0.9rem;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   body #whole_page .whole_page .home_section_content .big_logo_and_square .home_square .socials_block {
     display: flex;
@@ -1833,11 +1835,10 @@
   body #whole_page .whole_page .about_section {
     background-color: #00313E;
     height: 100vh;
-    height: 90vh;
     overflow: hidden;
   }
   body #whole_page .whole_page .about_section .about_section_content {
-    margin: 0 1em 0 1em;
+    margin: 0 4em 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1868,15 +1869,17 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.9rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5em;
     line-height: 1.7em;
     margin: 2em 0 0 0;
     width: 80%;
+    width: 100%;
   }
   body #whole_page .whole_page .about_section .about_section_content .resume_dload {
     background-color: white;
     padding: 0.7em 0 0.7em 0;
+    padding: 0.2em 0 0.2em 0;
     width: 14em;
     margin: 2em 0 0 0;
     margin: 3em 0 0 0;
