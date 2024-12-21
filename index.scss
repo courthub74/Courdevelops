@@ -14422,6 +14422,10 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                         align-items: center;
                                         transition: .4s all ease-out;
                                     }
+                                    #create_collab_cover {
+                                        width: 12em;
+                                        height: 2.5em;
+                                    }
                                     // Each one with hover affect added 
                                         // (by ID)
                                     #portfolio_cover_one.hover {
@@ -14493,7 +14497,9 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                         }
                                         #create_collab_small {
                                             width: 15em;
+                                            width: 13em;
                                             height: 2.5em;
+                                            // height: 2em;
                                         }
                                         #luminex_solutions_small {
                                             width: 14.5em;
@@ -14546,6 +14552,11 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                                         width: 2.2em;
                                                         height: 2.2em;
                                                     }
+                                                    // sql
+                                                    // #sqlite {
+                                                    //     width: 4em;
+                                                    //     height: 4em;
+                                                    // }
                                                     p {
                                                         color: $buttongrey;
                                                         // color: $skillsteal;
