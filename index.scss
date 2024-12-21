@@ -14422,9 +14422,17 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                         align-items: center;
                                         transition: .4s all ease-out;
                                     }
+                                    #workflow_app_cover {
+                                        width: 17em;
+                                        height: 3em;
+                                    }
                                     #create_collab_cover {
-                                        width: 12em;
+                                        width: 13em;
                                         height: 2.5em;
+                                    }
+                                    #luminex_solutions_cover {
+                                        width: 15em;
+                                        height: 2.3em;
                                     }
                                     // Each one with hover affect added 
                                         // (by ID)
@@ -14502,8 +14510,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                             // height: 2em;
                                         }
                                         #luminex_solutions_small {
-                                            width: 14.5em;
-                                            height: 1.9em;
+                                            width: 15em;
+                                            height: 2em;
                                         }
                                         /////////////////////////////
                                         /////////////////////////////

@@ -11559,9 +11559,17 @@
     align-items: center;
     transition: 0.4s all ease-out;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #workflow_app_cover {
+    width: 17em;
+    height: 3em;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #create_collab_cover {
-    width: 12em;
+    width: 13em;
     height: 2.5em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions_cover {
+    width: 15em;
+    height: 2.3em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #portfolio_cover_one.hover {
     visibility: hidden;
@@ -11624,8 +11632,8 @@
     height: 2.5em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #luminex_solutions_small {
-    width: 14.5em;
-    height: 1.9em;
+    width: 15em;
+    height: 2em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .port_content_words {
     font-family: "Inter", sans-serif;
