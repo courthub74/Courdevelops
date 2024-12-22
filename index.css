@@ -509,9 +509,9 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover {
     width: 13em;
-    width: 11.5em;
+    width: 10em;
     height: 2.3em;
-    height: 2em;
+    height: 1.6em;
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover.tapped {
@@ -1979,9 +1979,9 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover {
     width: 13em;
-    width: 11.5em;
+    width: 9em;
     height: 2.3em;
-    height: 2em;
+    height: 1.4em;
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover.tapped {
