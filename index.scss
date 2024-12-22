@@ -702,9 +702,9 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     }
                                     #create_collab_cover {
                                         width: 13em;
-                                        width: 11.5em;
+                                        width: 10em;
                                         height: 2.3em;
-                                        height: 2em;
+                                        height: 1.7em;
                                         transition: .5s all ease-in;
                                     }
                                     #create_collab_cover.tapped {
@@ -2546,9 +2546,9 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                     }
                                     #create_collab_cover {
                                         width: 13em;
-                                        width: 11.5em;
+                                        width: 9em;
                                         height: 2.3em;
-                                        height: 2em;
+                                        height: 1.4em;
                                         transition: .5s all ease-in;
                                     }
                                     #create_collab_cover.tapped {
@@ -4263,6 +4263,8 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                         height: 2.3em;
                                         width: 11em;
                                         height: 1.8em;
+                                        height: 1.9em;
+                                        width: 9em;
                                     }
                                     #create_collab_cover.landscaped {
                                         opacity: 0;
@@ -14422,6 +14424,18 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                         align-items: center;
                                         transition: .4s all ease-out;
                                     }
+                                    #workflow_app_cover {
+                                        width: 17em;
+                                        height: 3em;
+                                    }
+                                    #create_collab_cover {
+                                        width: 13em;
+                                        height: 2.5em;
+                                    }
+                                    #luminex_solutions_cover {
+                                        width: 15em;
+                                        height: 2.3em;
+                                    }
                                     // Each one with hover affect added 
                                         // (by ID)
                                     #portfolio_cover_one.hover {
@@ -14493,11 +14507,13 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                         }
                                         #create_collab_small {
                                             width: 15em;
+                                            width: 13em;
                                             height: 2.5em;
+                                            // height: 2em;
                                         }
                                         #luminex_solutions_small {
-                                            width: 14.5em;
-                                            height: 1.9em;
+                                            width: 15em;
+                                            height: 2em;
                                         }
                                         /////////////////////////////
                                         /////////////////////////////
@@ -14546,6 +14562,11 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                                                         width: 2.2em;
                                                         height: 2.2em;
                                                     }
+                                                    // sql
+                                                    // #sqlite {
+                                                    //     width: 4em;
+                                                    //     height: 4em;
+                                                    // }
                                                     p {
                                                         color: $buttongrey;
                                                         // color: $skillsteal;

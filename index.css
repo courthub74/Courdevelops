@@ -509,9 +509,9 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover {
     width: 13em;
-    width: 11.5em;
+    width: 10em;
     height: 2.3em;
-    height: 2em;
+    height: 1.7em;
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover.tapped {
@@ -1979,9 +1979,9 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover {
     width: 13em;
-    width: 11.5em;
+    width: 9em;
     height: 2.3em;
-    height: 2em;
+    height: 1.4em;
     transition: 0.5s all ease-in;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover.tapped {
@@ -3389,6 +3389,8 @@
     height: 2.3em;
     width: 11em;
     height: 1.8em;
+    height: 1.9em;
+    width: 9em;
   }
   body .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_cover #create_collab_cover.landscaped {
     opacity: 0;
@@ -11559,6 +11561,18 @@
     align-items: center;
     transition: 0.4s all ease-out;
   }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #workflow_app_cover {
+    width: 17em;
+    height: 3em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #create_collab_cover {
+    width: 13em;
+    height: 2.5em;
+  }
+  body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #luminex_solutions_cover {
+    width: 15em;
+    height: 2.3em;
+  }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content #portfolio_cover_one.hover {
     visibility: hidden;
     opacity: 0;
@@ -11616,11 +11630,12 @@
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #create_collab_small {
     width: 15em;
+    width: 13em;
     height: 2.5em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content #luminex_solutions_small {
-    width: 14.5em;
-    height: 1.9em;
+    width: 15em;
+    height: 2em;
   }
   body #whole_page .whole_page .portfolio_section .portfolio_section_content .portfolio_squares .square .portfolio_square_content .portfolio_content .port_content_words {
     font-family: "Inter", sans-serif;
