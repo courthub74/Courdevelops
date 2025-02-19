@@ -382,9 +382,12 @@
   }
   body #whole_page .whole_page .about_section .about_section_content {
     margin: 0 4em 0 1em;
+    margin: 0 4em 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    width: 90%;
   }
   body #whole_page .whole_page .about_section .about_section_content .title_nav {
     display: flex;
@@ -421,6 +424,7 @@
     background-color: white;
     padding: 0.7em 0 0.7em 0;
     width: 14em;
+    width: 100%;
     margin: 2em 0 0 0;
     margin: 3em 0 0 0;
     text-align: center;

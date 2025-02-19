@@ -506,9 +506,12 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                     .about_section_content {
                         // margin: 0 3em 0 3em;
                         margin: 0 4em 0 1em;
+                        margin: 0 4em 0 1em;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
+                        width: 100%;
+                        width: 90%;
                         // align-items: center;
                         .title_nav {
                            display: flex;
@@ -561,6 +564,7 @@ $projectboxes: linear-gradient(45deg, #3b3e93, #060927);
                             background-color: white;
                             padding: .7em 0 .7em 0;
                             width: 14em;
+                            width: 100%;
                             margin: 2em 0 0 0;
                             // New margin
                             margin: 3em 0 0 0;
